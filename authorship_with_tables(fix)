@@ -88,7 +88,7 @@ def table(authors):
 
 if __name__ == '__main__':
     signatures = []
-    for fid in gutenberg.fileids()[0:3]:
+    for fid in gutenberg.fileids():
         # compute features, make a list of features
         features = [fid]
         #features.append('AWL: ')
